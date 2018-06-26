@@ -105,6 +105,16 @@ for f in glob.glob('/home/farmguide/Downloads/newcsv/IN*.csv'):
     df9.to_csv(path1,index=False)
     
 get_ipython().run_line_magic('time', "print('step2')")
+
+all_data=pd.DataFrame()
+p=0
+for f in glob.glob('/home/farmguide/Downloads/newcsv2/IN*.csv'):
+    DF= pd.read_csv(f)
+    DF=DF[DF['YEAR']>2017]
+    all_data=all_data.append(DF,ignore_index=True) #merging all files into a single file
+    p=p+1
+    print(p)
+all_data.to_csv('/home/farmguide/Downloads/merged_station.csv',index=False)
     
 def clean_df_db_dups(DF, tablename, engine, dup_cols=[]):
   
