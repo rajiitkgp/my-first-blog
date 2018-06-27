@@ -1,8 +1,8 @@
-#Description of projects
+# Description of projects
 
-##A.google_weather_data.py
+A.<h1/>google_weather_data.py
 
-######It contains automation code for preprocessing of GLOBAL HISTORICAL CLIMATOLOGY NETWORK data downloaded from google. The Global Historical Climatology Network (GHCN) is an integrated database of climate summaries from land surface stations across the globe that have been subjected to a common suite of quality assurance reviews.<br/>
+## It contains automation code for preprocessing of GLOBAL HISTORICAL CLIMATOLOGY NETWORK data downloaded from google. The Global Historical Climatology Network (GHCN) is an integrated database of climate summaries from land surface stations across the globe that have been subjected to a common suite of quality assurance reviews.<br/>
 
 it includes code for following steps <br/>
 
@@ -17,9 +17,9 @@ it includes code for following steps <br/>
 5.finally, All files from newcsv2 is merged into a single file and transferred into mysql database <br/>
 
 
-##B.statewise_fertiliser_data_scrapping.py <br/>
+## B.statewise_fertiliser_data_scrapping.py <br/>
 
-######This file contains code for scrapping of statewise fertiliser data from urvarak.com. It contains explanation of each step involved in the code.<br/>
+### This file contains code for scrapping of statewise fertiliser data from urvarak.com. It contains explanation of each step involved in the code.<br/>
 
 1.In first step we took the url to be scrapped and clicked on the name statewise by using xpath of name statewise. Then we moved into second window which opened after clicking. <br/> 
 
@@ -28,14 +28,14 @@ it includes code for following steps <br/>
 3.Finally after getting the report we scrapped the data from the page using beautiful soup and saved it to dataframe. <br/>
 
 
-##C.Companywise_fertiliser_data_scrapping.py </br>
+## C.Companywise_fertiliser_data_scrapping.py </br>
 
 It contains same steps as mentioned in the satewise_fertiliser_data_scrapping.py <br/>
 
 
-##D.Structuring_nested_json_into_csv.py <br/>
+## D.Structuring_nested_json_into_csv.py <br/>
 
-######In this project we extracted important information of all market from mandi profile data and structured into a good csv format. <br/>
+### In this project we extracted important information of all market from mandi profile data and structured into a good csv format. <br/>
 
 1.we took out area_info, admin info, general_info, state-market info, commodities_info for each market and made separate dataframe for each type of info.<br/>
 
@@ -44,9 +44,9 @@ It contains same steps as mentioned in the satewise_fertiliser_data_scrapping.py
 3.Finally, we combined above dataframe with dataframe containing commodities info to a single required dataframe.<br/>
 
 
-##E. Merging_excelfile.py</br>
+## E. Merging_excelfile.py</br>
 
-######This file contains code for extracting all useful information from excels file and strcuturing it to a good format and then merging them all into a single file.<br/>
+### This file contains code for extracting all useful information from excels file and strcuturing it to a good format and then merging them all into a single file.<br/>
 
 1.we took each file by iteration and extracted state, district, subdistrict, village from there and made a separate column for each in the table.<br/>
 
@@ -55,9 +55,9 @@ It contains same steps as mentioned in the satewise_fertiliser_data_scrapping.py
 3.Modified each column names,then merged all the files in a single one and transferred each file into mysql database simultaneously.<br/>
 
 
-##F.Scrapping_of_apis.py <br/>
+## F.Scrapping_of_apis.py <br/>
 
-######In this project we scrapped api link from data.gov website. Each api link contains data of different types, for instance data for Current Daily Price of Various Commodities from Various Markets (Mandi), Farmers Queries in Kisan Call Centre (KCC) from KURNOOL district of ANDHRA PRADESH for the month of April 2018 etc. in csv or xml format.<br/>
+### In this project we scrapped api link from data.gov website. Each api link contains data of different types, for instance data for Current Daily Price of Various Commodities from Various Markets (Mandi), Farmers Queries in Kisan Call Centre (KCC) from KURNOOL district of ANDHRA PRADESH for the month of April 2018 etc. in csv or xml format.<br/>
 
 1.At first we clicked on name of each api in a loop and moved to new window opened.<br/>
 
