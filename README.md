@@ -17,7 +17,7 @@ it includes code for following steps <br/>
 5.finally, All files from newcsv2 is merged into a single file and transferred into mysql database <br/>
 
 
-## B.statewise_fertiliser_data_scrapping.py <br/>
+## B.Statewise_fertiliser_data_scrapping.py <br/>
 
 ### This file contains code for scrapping of statewise fertiliser data from urvarak.com. It contains explanation of each step involved in the code.<br/>
 
