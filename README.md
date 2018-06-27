@@ -1,8 +1,8 @@
 # Description of projects
 
-A.<h1/>google_weather_data.py
+## A.google_weather_data.py
 
-## It contains automation code for preprocessing of GLOBAL HISTORICAL CLIMATOLOGY NETWORK data downloaded from google. The Global Historical Climatology Network (GHCN) is an integrated database of climate summaries from land surface stations across the globe that have been subjected to a common suite of quality assurance reviews.<br/>
+### It contains automation code for preprocessing of GLOBAL HISTORICAL CLIMATOLOGY NETWORK data downloaded from google. The Global Historical Climatology Network (GHCN) is an integrated database of climate summaries from land surface stations across the globe that have been subjected to a common suite of quality assurance reviews.<br/>
 
 it includes code for following steps <br/>
 
